@@ -16,7 +16,7 @@ import "../components/index.css"
 
 /* <SEO title="Home" /> */
 
-const IndexPage = () => (
+const IndexPage = props => (
   <div className="overall-container">
     <div className="main-container">
       <div className="sidemenu-container">

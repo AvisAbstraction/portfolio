@@ -1,11 +1,11 @@
 import React from "react"
 import "./sidemenu.css"
 
-export const SideMenu = () => (
+export const SideMenu = props => (
   <div className="container">
     <div className="item">
       <image src="" alt="Avinash" />
-      <h3>Avinash</h3>
+      <div>Avinash</div>
       <div>Full Stack Developer</div>
       <ul>
         <li>
