@@ -1,0 +1,54 @@
+/** global styles starts **/
+
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+    font-feature-settings: "kern", "liga", "clig", "calt";
+  }
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/** global styles endss **/
+.overall-container {
+  color: white;
+  background: linear-gradient(
+        -213deg,
+        rgb(94, 49, 220) 0%,
+        rgb(49, 85, 220) 100%
+      )
+      right center / contain no-repeat,
+    left center rgb(49, 85, 220);
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.sidemenu-container {
+}
+
+@media only screen and (max-width: 480px) {
+}
